@@ -1,0 +1,64 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: inline;
+}
+
+li {
+    display: inline;
+}
+
+header {
+    position: fixed;
+    width: 100%;
+    top: 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.links {
+    width: 100px;
+    background-color: purple;
+}
+
+#services {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    overflow: hidden;
+    background-image: url('https://ssl.gstatic.com/gb/images/i2_2ec824b0.png');
+}
+
+#user {
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+
+.search {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    margin-top: 10%;
+    background-color: red;
+}
+
+#logo {
+    max-width: 600px;
+    background-color: green;
+}
+
+footer {
+    position: fixed;
+    width: 100%;
+    bottom: 0px;
+    display: flex;
+    justify-content: space-between;
+}
