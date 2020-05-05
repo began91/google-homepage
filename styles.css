@@ -12,19 +12,27 @@ ul {
 
 li {
     display: inline;
+    padding: 0 2px 0 2px;
 }
 
 header {
     position: fixed;
-    width: 100%;
-    top: 0px;
+    width: 98%;
+    top: 5px;
+    margin: 5px 10px 0px 10px;
     display: flex;
     justify-content: space-between;
 }
 
-.links {
-    width: 100px;
-    background-color: purple;
+header a, footer a {
+    color: black;
+    opacity: 0.75;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+header a:hover, footer a:hover {
+    text-decoration: underline;
 }
 
 #services {
@@ -33,12 +41,19 @@ header {
     width: 30px;
     overflow: hidden;
     background-image: url('https://ssl.gstatic.com/gb/images/i2_2ec824b0.png');
+    background-position: -132px -38px;
+    background-size: 528px 68px;
+    opacity: 0.55;
+    vertical-align: middle;
+    display: inline-block;
 }
 
 #user {
     border-radius: 50%;
     width: 30px;
     height: 30px;
+    vertical-align: middle;
+    display: inline-block;
 }
 
 .search {
@@ -57,8 +72,13 @@ header {
 
 footer {
     position: fixed;
-    width: 100%;
+    width: 98%;
     bottom: 0px;
+    margin: 0 5px 2px 5px;
     display: flex;
     justify-content: space-between;
+}
+
+.message img {
+    height: 100px;
 }
