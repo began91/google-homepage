@@ -46,6 +46,12 @@ header a:hover, footer a:hover {
     opacity: 0.55;
     vertical-align: middle;
     display: inline-block;
+    border: 1px solid white;
+}
+#services:hover {
+    border: 1px solid #f2f2f2;
+    opacity: 0.8;
+    background-color: #f2f2f2;
 }
 
 #user {
@@ -54,20 +60,79 @@ header a:hover, footer a:hover {
     height: 30px;
     vertical-align: middle;
     display: inline-block;
+    border: 1px solid white;
+}
+
+#user:hover {
+    border: 1px solid rgba(131, 131, 131, 0.616);
 }
 
 .search {
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
     position: relative;
+    height: 500px;
     margin-top: 10%;
-    background-color: red;
 }
 
 #logo {
     max-width: 600px;
-    background-color: green;
+}
+
+.search-bar {
+    border: 1px solid #f2f2f2;
+    border-radius: 12px;
+    width: 400px;
+    height: 30px;
+    margin: 10px;
+    box-shadow: 2px 2px 1px #f2f2f2;
+}
+
+#eyeglass {
+    border-radius: 50%;
+    height: 30px;
+    width: 30px;
+    overflow: hidden;
+    background-image: url('https://ssl.gstatic.com/gb/images/i2_2ec824b0.png');
+    background-position: -245px -32px;
+    background-size: 528px 68px;
+    opacity: 0.55;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+input {
+    height: 25px;
+    font-size: 16px;
+    vertical-align: middle;
+    margin-bottom: 3px;
+    border: none;
+}
+
+.buttons {
+    margin-bottom: 75px;
+    width: 300px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button {
+    min-width: 54px;
+    text-align: center;
+    height: 36px;
+    border-radius: 4px;
+    padding: 0 16px;
+    margin: 11px 4px;
+    line-height: 27px;
+    background-color: #f2f2f2;
+    border: 1px solid #f2f2f2;
+    cursor: pointer;
+}
+
+button:hover {
+    border: 1px solid rgba(131, 131, 131, 0.616);
 }
 
 footer {
